@@ -1,0 +1,14 @@
+# SHA-256 deny-list (curated). One hash per line; optional label after
+# whitespace. Lines starting with # are comments.
+#
+# This curated list ships with Nocturn and grows through signed updates
+# delivered with new releases (Nocturn's own data — no third-party feed). An
+# optional larger list may arrive at hashes_feed.txt via that same signed
+# channel. Keep this file small and hand-verified.
+#
+# The one seeded entry below is the EICAR standard antivirus test file — a
+# harmless, industry-standard string every AV agrees to flag. It lets a fresh
+# install prove detection works: create a file containing the EICAR test
+# string, run a scan (or "Check with Nocturn"), and confirm Nocturn catches
+# it. It is NOT malware. See https://www.eicar.org/download-anti-malware-testfile/
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f  eicar_test_file
